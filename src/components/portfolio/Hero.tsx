@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowRight, Download, Github, Linkedin, Instagram, Facebook } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import portrait from "@/assets/portrait.jpg.asset.json";
+import portrait from "@/assets/portrait.jpg";
 
 export function Hero() {
   return (
@@ -119,7 +119,7 @@ export function Hero() {
                 }}
               >
                 <img
-                  src={portrait.url}
+                  src={portrait}
                   alt="Blessing Moses — BobbyTech Hub"
                   className="w-full h-auto object-cover"
                   loading="eager"
